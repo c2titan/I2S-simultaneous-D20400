@@ -6,17 +6,17 @@ Intel Quartus project file (21.1 lite version) : https://drive.google.com/file/d
 
 Pinout for the CPLD:
 - I2S - CPLD converter:
--- BCK - 5
--- DATA - 7
--- LRCK - 15
--- GND with CPLD GND (next to the pin 21)
+- - BCK - 5
+- - DATA - 7
+- - LRCK - 15
+- - GND with CPLD GND (next to the pin 21)
 - CPLD converter - DAC:
--- 21 - CL (clock for DAC)
--- 28 - DL (data Left)
--- 26 - DR (data Right)
--- 19 - LE (Latch)
--- 17 - Hold
--- DAC GND (2x) with CPLD GND (next to the pin 21)
+- - 21 - CL (clock for DAC)
+- - 28 - DL (data Left)
+- - 26 - DR (data Right)
+- - 19 - LE (Latch)
+- - 17 - Hold
+- - DAC GND (2x) with CPLD GND (next to the pin 21)
 - Power supply - CPLD converter:
--- psu +5V with CPLD +5V pin (next to the pin 56 or the black power connector) ... or alternatively a higher voltage (max. +12Vdc)
--- psu GND with CPLD GND pin (next to the pin 55 or the black power connector)
+- - psu +5V with CPLD +5V pin (next to the pin 56 or the black power connector) ... or alternatively a higher voltage (max. +12Vdc)
+- - psu GND with CPLD GND pin (next to the pin 55 or the black power connector)
