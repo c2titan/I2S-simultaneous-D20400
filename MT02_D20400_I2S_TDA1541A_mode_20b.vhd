@@ -15,6 +15,8 @@
 --  DR (outDR)  - Right DAC data (inversed MSB)
 --  LE (outLE)  - Latch for both channels (latched together)
 
+--  H  (outH)   - Hold
+
 -- It flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress.
 
 -- This VHDL code is open and free for all.
